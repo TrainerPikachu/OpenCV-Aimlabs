@@ -1,0 +1,24 @@
+# 全局配置文件
+capture:
+  width: 1200    # 截取屏幕中心的宽度 (像素)
+  height: 1200   # 截取屏幕中心的高度 (像素)
+  fps_limit: 0     # 限制最大帧率 (0 为不限制)
+
+vision:
+  # Aim Lab 默认青色目标的 HSV 范围 (OpenCV 中 H: 0-179, S: 0-255, V: 0-255)
+  # 提示: 如果识别不准，可以编写一个小脚本微调这两个值
+  hsv_lower: [80, 100, 100]
+  hsv_upper: [100, 255, 255]
+  
+  min_contour_area: 50   # 最小识别面积，过滤噪点
+  max_contour_area: 5000 # 最大识别面积
+
+control:
+  mouse_smoothing: 0.0   # 鼠标移动平滑度 (0.0 到 1.0，值越小越快，但可能越不准)
+  x_multiplier: 4     # X 轴灵敏度系数
+  y_multiplier: 4    # Y 轴灵敏度系数
+  click_delay: 0.01      # 点击后的延迟 (秒)
+
+debug:
+  show_window: false      # 是否显示 OpenCV 调试窗口
+  print_fps: true        # 是否在控制台打印 FPS
