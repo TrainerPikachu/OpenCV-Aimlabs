@@ -2,7 +2,7 @@
 
 这是一个基于 Python 和 OpenCV 的 Aim Lab 自动化视觉辅助脚本，主要用于展示计算机视觉基础、高性能屏幕捕获以及 Windows API 的底层交互。
 
-示例视频：https://www.bilibili.com/video/
+示例视频：https://www.bilibili.com/video/BV1gEorBrEr3/
 
 > ⚠️ **免责声明**: 本项目仅供编程学习与技术展示，请勿在包含反作弊机制（如 Vanguard, EAC, BattlEye 等）的多人游戏中使用。
 
